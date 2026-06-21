@@ -318,11 +318,26 @@ please cite:
   year      = {2026},
   note      = {Submitted}
 }
+
+@software{bendes2026code,
+  author    = {Bende{\c{s}}, Emre},
+  title     = {Wind-DWT-BiLSTM-Metaheuristic: Joint Hyperparameter
+               Optimization Codebase},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v1.0.0},
+  doi       = {10.5281/zenodo.20783711},
+  url       = {https://doi.org/10.5281/zenodo.20783711}
+}
 ```
 
 Full archival snapshot (including all `faz*_runs/` trial-history
 databases and trained model checkpoints, ~1 GB total) will be mirrored
-at Zenodo: **DOI to be added upon journal acceptance.**
+at Zenodo: 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20783711.svg)](https://doi.org/10.5281/zenodo.20783711)
+
+DOI (concept, all versions): [10.5281/zenodo.20783711](https://doi.org/10.5281/zenodo.20783711)  
+DOI (this version, v1.0.0): [10.5281/zenodo.20783712](https://doi.org/10.5281/zenodo.20783712)
 
 ---
 
