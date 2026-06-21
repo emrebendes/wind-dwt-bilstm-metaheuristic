@@ -1,0 +1,15 @@
+{
+    "dwt_wavelet": "coif5",
+    "dwt_level": 4,
+    "dwt_mode": "symmetric",
+    "look_back": 96,
+    "hidden": 124,
+    "layers": 1,
+    "dropout": 0.05771850380230441,
+    "lr": 0.000524228513715979,
+    "batch": 64,
+    "_loss": 0.03728636009352497,
+    "_seed": 631263,
+    "_algorithm": "pso",
+    "_mode": "joint"
+}

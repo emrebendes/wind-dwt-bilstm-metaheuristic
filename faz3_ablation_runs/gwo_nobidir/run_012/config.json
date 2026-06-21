@@ -1,0 +1,10 @@
+{
+  "algo": "gwo",
+  "ablation": "nobidir",
+  "ablation_desc": "BiLSTM yerine duz LSTM (forward only)",
+  "seed": 776647,
+  "pop_size": 40,
+  "max_iter": 50,
+  "workers": 35,
+  "run_id": 12
+}

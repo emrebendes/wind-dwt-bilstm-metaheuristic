@@ -1,0 +1,315 @@
+{
+  "algorithm": "gwo",
+  "windows": [
+    "Y2",
+    "Y3",
+    "Y4",
+    "Y5",
+    "Y6"
+  ],
+  "rows": [
+    {
+      "window": "Y2",
+      "dwt_wavelet": "sym5",
+      "dwt_level": 5,
+      "dwt_mode": "symmetric",
+      "look_back": 55,
+      "hidden": 135,
+      "layers": 1,
+      "dropout": 0.08694151900140475,
+      "lr": 0.004719350548910791,
+      "batch": 32,
+      "search_rmse": 0.04259526040037304,
+      "final_rmse": 0.08252384046542063
+    },
+    {
+      "window": "Y3",
+      "dwt_wavelet": "db4",
+      "dwt_level": 5,
+      "dwt_mode": "symmetric",
+      "look_back": 54,
+      "hidden": 86,
+      "layers": 4,
+      "dropout": 0.07506429462890812,
+      "lr": 0.00783003711180744,
+      "batch": 32,
+      "search_rmse": 0.04180481275526015,
+      "final_rmse": 0.08492755075101927
+    },
+    {
+      "window": "Y4",
+      "dwt_wavelet": "sym5",
+      "dwt_level": 5,
+      "dwt_mode": "periodization",
+      "look_back": 53,
+      "hidden": 242,
+      "layers": 2,
+      "dropout": 0.3443533123165954,
+      "lr": 0.006034646925561871,
+      "batch": 64,
+      "search_rmse": 0.041706825666806946,
+      "final_rmse": 0.08549770268061598
+    },
+    {
+      "window": "Y5",
+      "dwt_wavelet": "db4",
+      "dwt_level": 5,
+      "dwt_mode": "zero",
+      "look_back": 54,
+      "hidden": 86,
+      "layers": 1,
+      "dropout": 0.28158944848187545,
+      "lr": 0.008532124903378997,
+      "batch": 32,
+      "search_rmse": 0.03936626956191099,
+      "final_rmse": 0.0843741093264696
+    },
+    {
+      "window": "Y6",
+      "dwt_wavelet": "db4",
+      "dwt_level": 4,
+      "dwt_mode": "symmetric",
+      "look_back": 91,
+      "hidden": 85,
+      "layers": 1,
+      "dropout": 0.431590456876322,
+      "lr": 0.010000000000000004,
+      "batch": 32,
+      "search_rmse": 0.03458061630323126,
+      "final_rmse": 0.07992764274815085
+    }
+  ],
+  "hp_consistency": {
+    "dwt_wavelet": {
+      "type": "categorical",
+      "mode": "db4",
+      "mode_frequency": 0.6,
+      "unique_count": 2,
+      "values": [
+        "sym5",
+        "db4",
+        "sym5",
+        "db4",
+        "db4"
+      ]
+    },
+    "dwt_mode": {
+      "type": "categorical",
+      "mode": "symmetric",
+      "mode_frequency": 0.6,
+      "unique_count": 3,
+      "values": [
+        "symmetric",
+        "symmetric",
+        "periodization",
+        "zero",
+        "symmetric"
+      ]
+    },
+    "batch": {
+      "type": "categorical",
+      "mode": "32",
+      "mode_frequency": 0.8,
+      "unique_count": 2,
+      "values": [
+        32,
+        32,
+        64,
+        32,
+        32
+      ]
+    },
+    "dwt_level": {
+      "type": "continuous",
+      "mean": 4.8,
+      "std": 0.39999999999999997,
+      "min": 4.0,
+      "max": 5.0,
+      "cv_pct": 8.333333333333332,
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        4
+      ]
+    },
+    "look_back": {
+      "type": "continuous",
+      "mean": 61.4,
+      "std": 14.813507349712964,
+      "min": 53.0,
+      "max": 91.0,
+      "cv_pct": 24.12623346858789,
+      "values": [
+        55,
+        54,
+        53,
+        54,
+        91
+      ]
+    },
+    "hidden": {
+      "type": "continuous",
+      "mean": 126.8,
+      "std": 60.687395725966034,
+      "min": 85.0,
+      "max": 242.0,
+      "cv_pct": 47.860722181361226,
+      "values": [
+        135,
+        86,
+        242,
+        86,
+        85
+      ]
+    },
+    "layers": {
+      "type": "continuous",
+      "mean": 1.8,
+      "std": 1.1661903789690602,
+      "min": 1.0,
+      "max": 4.0,
+      "cv_pct": 64.78835438717002,
+      "values": [
+        1,
+        4,
+        2,
+        1,
+        1
+      ]
+    },
+    "dropout": {
+      "type": "continuous",
+      "mean": 0.24390780626102115,
+      "std": 0.14133685290506356,
+      "min": 0.07506429462890812,
+      "max": 0.431590456876322,
+      "cv_pct": 57.94683453214699,
+      "values": [
+        0.08694151900140475,
+        0.07506429462890812,
+        0.3443533123165954,
+        0.28158944848187545,
+        0.431590456876322
+      ]
+    },
+    "lr": {
+      "type": "continuous",
+      "mean": 0.00742323189793182,
+      "std": 0.0018587098001827808,
+      "min": 0.004719350548910791,
+      "max": 0.010000000000000004,
+      "cv_pct": 25.03909113630997,
+      "values": [
+        0.004719350548910791,
+        0.00783003711180744,
+        0.006034646925561871,
+        0.008532124903378997,
+        0.010000000000000004
+      ]
+    }
+  },
+  "wilcoxon_search": {
+    "test_name": "Kruskal-Wallis (n=150) + Mann-Whitney U + Holm",
+    "kruskal_H": 76.72568653421627,
+    "kruskal_p": 8.596374355946146e-16,
+    "kruskal_significant": true,
+    "n_per_window": 30,
+    "n_total": 150,
+    "n_windows": 5,
+    "post_hoc": [
+      {
+        "window": "Y2",
+        "U": 900.0,
+        "p_raw": 3.019859359162157e-11,
+        "median_y_i": 0.05015524513214936,
+        "median_y6": 0.036557154768062455,
+        "mean_y_i": 0.050140798588988934,
+        "std_y_i": 0.003970406635062944,
+        "n_y_i": 30,
+        "p_holm": 1.2079437436648628e-10,
+        "significant_at_005": true,
+        "pct_diff_vs_y6": 37.19679622322974
+      },
+      {
+        "window": "Y4",
+        "U": 898.0,
+        "p_raw": 3.6897258539809896e-11,
+        "median_y_i": 0.05291827207258564,
+        "median_y6": 0.036557154768062455,
+        "mean_y_i": 0.05163542003163058,
+        "std_y_i": 0.004946632793748911,
+        "n_y_i": 30,
+        "p_holm": 1.1069177561942968e-10,
+        "significant_at_005": true,
+        "pct_diff_vs_y6": 44.75489793537434
+      },
+      {
+        "window": "Y3",
+        "U": 896.0,
+        "p_raw": 4.504322112705282e-11,
+        "median_y_i": 0.04928705365229989,
+        "median_y6": 0.036557154768062455,
+        "mean_y_i": 0.04843220816083293,
+        "std_y_i": 0.004613811582838013,
+        "n_y_i": 30,
+        "p_holm": 9.008644225410564e-11,
+        "significant_at_005": true,
+        "pct_diff_vs_y6": 34.82190822836874
+      },
+      {
+        "window": "Y5",
+        "U": 893.0,
+        "p_raw": 6.065757009046712e-11,
+        "median_y_i": 0.0477953842192876,
+        "median_y6": 0.036557154768062455,
+        "mean_y_i": 0.04918178558997101,
+        "std_y_i": 0.0050971691789325315,
+        "n_y_i": 30,
+        "p_holm": 6.065757009046712e-11,
+        "significant_at_005": true,
+        "pct_diff_vs_y6": 30.741532054467307
+      }
+    ],
+    "interpretation": "ANLAMLI FARK VAR (p=8.60e-16). Post-hoc Holm-corrected: 4/4 pencere Y6'dan anlamli farkli."
+  },
+  "wilcoxon_final": {
+    "n": 5,
+    "y6": 0.07992764274815085,
+    "mean": 0.08345016919433526,
+    "median": 0.0843741093264696,
+    "std": 0.0020245983546037212,
+    "min": 0.07992764274815085,
+    "max": 0.08549770268061598,
+    "max_pct_diff_vs_y6": 6.968878026362145,
+    "values": [
+      {
+        "window": "Y2",
+        "final_rmse": 0.08252384046542063,
+        "pct_diff_vs_y6": 3.2481850183550467
+      },
+      {
+        "window": "Y3",
+        "final_rmse": 0.08492755075101927,
+        "pct_diff_vs_y6": 6.255542927273537
+      },
+      {
+        "window": "Y4",
+        "final_rmse": 0.08549770268061598,
+        "pct_diff_vs_y6": 6.968878026362145
+      },
+      {
+        "window": "Y5",
+        "final_rmse": 0.0843741093264696,
+        "pct_diff_vs_y6": 5.563114869194138
+      },
+      {
+        "window": "Y6",
+        "final_rmse": 0.07992764274815085
+      }
+    ],
+    "note": "Tek deger per pencere \u2014 formal test yapilamiyor; fark oranlari descriptive raporlanir."
+  },
+  "created_at": "2026-06-07T09:06:23.450463"
+}

@@ -1,0 +1,15 @@
+{
+    "dwt_wavelet": "sym5",
+    "dwt_level": 4,
+    "dwt_mode": "periodization",
+    "look_back": 94,
+    "hidden": 237,
+    "layers": 2,
+    "dropout": 0.34718883344572543,
+    "lr": 0.002167768694726227,
+    "batch": 32,
+    "_loss": 0.038694812075159325,
+    "_seed": 709571,
+    "_algorithm": "toa",
+    "_mode": "joint"
+}

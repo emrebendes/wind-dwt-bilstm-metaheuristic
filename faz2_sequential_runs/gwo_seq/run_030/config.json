@@ -1,0 +1,13 @@
+{
+  "algo": "gwo",
+  "seed": 735393,
+  "pop_size": 40,
+  "max_iter": 50,
+  "workers": 35,
+  "run_id": 30,
+  "fixed_wavelet": "sym6",
+  "fixed_level": 3,
+  "fixed_mode": "zero",
+  "mode": "sequential",
+  "dimension": 6
+}

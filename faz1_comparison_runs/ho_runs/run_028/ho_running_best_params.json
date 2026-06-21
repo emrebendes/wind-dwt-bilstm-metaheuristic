@@ -1,0 +1,15 @@
+{
+    "dwt_wavelet": "coif3",
+    "dwt_level": 4,
+    "dwt_mode": "periodization",
+    "look_back": 96,
+    "hidden": 164,
+    "layers": 2,
+    "dropout": 0.13757794745138807,
+    "lr": 0.00011194652860565357,
+    "batch": 64,
+    "_loss": 0.039616897481092,
+    "_seed": 750801,
+    "_algorithm": "ho",
+    "_mode": "joint"
+}

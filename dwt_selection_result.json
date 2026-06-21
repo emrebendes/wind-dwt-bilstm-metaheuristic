@@ -1,0 +1,1121 @@
+{
+  "selected_wavelet": "sym6",
+  "selected_level": 3,
+  "selected_mode": "zero",
+  "min_total_entropy": 208.449018410075,
+  "n_stations": 8,
+  "signal_length": 8760,
+  "data_window": null,
+  "n_combos_tested": 180,
+  "elapsed_seconds": 0.495603084564209,
+  "method": "Shannon entropy of DWT detail coefficients (per-station sum)",
+  "wavelet_choices": [
+    "db4",
+    "db5",
+    "db6",
+    "db7",
+    "db8",
+    "sym5",
+    "sym6",
+    "sym7",
+    "sym8",
+    "coif3",
+    "coif4",
+    "coif5"
+  ],
+  "level_choices": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "mode_choices": [
+    "symmetric",
+    "zero",
+    "periodization"
+  ],
+  "grid_results": [
+    {
+      "wavelet": "sym6",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 208.449018410075
+    },
+    {
+      "wavelet": "sym6",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 208.4871103747603
+    },
+    {
+      "wavelet": "coif3",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 208.65489141170585
+    },
+    {
+      "wavelet": "coif3",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 208.67446130841284
+    },
+    {
+      "wavelet": "coif3",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 208.77571843513894
+    },
+    {
+      "wavelet": "sym5",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 208.80674814749128
+    },
+    {
+      "wavelet": "sym7",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 208.80705840135928
+    },
+    {
+      "wavelet": "coif5",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 208.88476790818672
+    },
+    {
+      "wavelet": "coif4",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 208.90266156672385
+    },
+    {
+      "wavelet": "db4",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 208.92602813697223
+    },
+    {
+      "wavelet": "sym7",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 209.00088034459182
+    },
+    {
+      "wavelet": "sym7",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 209.04797408515188
+    },
+    {
+      "wavelet": "sym8",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 209.10416618851485
+    },
+    {
+      "wavelet": "db5",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 209.1176284474951
+    },
+    {
+      "wavelet": "sym6",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 209.12361162406717
+    },
+    {
+      "wavelet": "db5",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 209.135131114067
+    },
+    {
+      "wavelet": "sym5",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 209.1361101978077
+    },
+    {
+      "wavelet": "coif5",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 209.1417317886793
+    },
+    {
+      "wavelet": "sym5",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 209.15554182281602
+    },
+    {
+      "wavelet": "sym8",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 209.1747785315015
+    },
+    {
+      "wavelet": "coif4",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 209.18381972658966
+    },
+    {
+      "wavelet": "sym8",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 209.2479807404755
+    },
+    {
+      "wavelet": "coif4",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 209.36986071551868
+    },
+    {
+      "wavelet": "coif5",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 209.4164262307147
+    },
+    {
+      "wavelet": "db4",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 209.90715573461165
+    },
+    {
+      "wavelet": "db4",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 209.91002344766463
+    },
+    {
+      "wavelet": "db6",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 209.9155197068001
+    },
+    {
+      "wavelet": "db7",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 209.9376441936806
+    },
+    {
+      "wavelet": "db7",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 210.00222390699975
+    },
+    {
+      "wavelet": "db5",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 210.03342183882611
+    },
+    {
+      "wavelet": "db6",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 210.0775985227962
+    },
+    {
+      "wavelet": "db6",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 210.10617840968342
+    },
+    {
+      "wavelet": "db7",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 210.18057123076298
+    },
+    {
+      "wavelet": "db8",
+      "level": 3,
+      "mode": "zero",
+      "total_entropy": 210.7901816303625
+    },
+    {
+      "wavelet": "db8",
+      "level": 3,
+      "mode": "symmetric",
+      "total_entropy": 210.8913957952258
+    },
+    {
+      "wavelet": "db8",
+      "level": 3,
+      "mode": "periodization",
+      "total_entropy": 210.93729946116514
+    },
+    {
+      "wavelet": "coif3",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 248.05957050561344
+    },
+    {
+      "wavelet": "coif3",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 248.30485146057356
+    },
+    {
+      "wavelet": "sym7",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 248.30702186475875
+    },
+    {
+      "wavelet": "sym6",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 248.36597992975817
+    },
+    {
+      "wavelet": "sym6",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 248.39585248594506
+    },
+    {
+      "wavelet": "sym7",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 248.4087562285078
+    },
+    {
+      "wavelet": "sym8",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 248.4319632746487
+    },
+    {
+      "wavelet": "sym6",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 248.44023257969852
+    },
+    {
+      "wavelet": "sym5",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 248.5283980443586
+    },
+    {
+      "wavelet": "coif3",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 248.55067227474785
+    },
+    {
+      "wavelet": "sym5",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 248.57126200410562
+    },
+    {
+      "wavelet": "sym5",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 248.59065144793047
+    },
+    {
+      "wavelet": "coif4",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 248.66252848524334
+    },
+    {
+      "wavelet": "sym7",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 248.76638735456922
+    },
+    {
+      "wavelet": "db5",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 248.78236301055307
+    },
+    {
+      "wavelet": "sym8",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 248.8095935786261
+    },
+    {
+      "wavelet": "db5",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 248.8319705642703
+    },
+    {
+      "wavelet": "db4",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 248.92187873315612
+    },
+    {
+      "wavelet": "sym8",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 248.938540527862
+    },
+    {
+      "wavelet": "coif5",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 248.942723023952
+    },
+    {
+      "wavelet": "coif4",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 249.00735481502576
+    },
+    {
+      "wavelet": "coif5",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 249.03397307637928
+    },
+    {
+      "wavelet": "coif4",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 249.13202246103762
+    },
+    {
+      "wavelet": "db4",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 249.19919642361668
+    },
+    {
+      "wavelet": "db4",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 249.21931212666777
+    },
+    {
+      "wavelet": "db6",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 249.37153222595106
+    },
+    {
+      "wavelet": "db5",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 249.47175720564468
+    },
+    {
+      "wavelet": "coif5",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 249.58558614352347
+    },
+    {
+      "wavelet": "db6",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 249.66251091774714
+    },
+    {
+      "wavelet": "db6",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 249.74056375669545
+    },
+    {
+      "wavelet": "db7",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 249.7933447034928
+    },
+    {
+      "wavelet": "db7",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 249.9555321714984
+    },
+    {
+      "wavelet": "db7",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 250.13995190212586
+    },
+    {
+      "wavelet": "db8",
+      "level": 4,
+      "mode": "periodization",
+      "total_entropy": 250.48480098014795
+    },
+    {
+      "wavelet": "db8",
+      "level": 4,
+      "mode": "zero",
+      "total_entropy": 250.76580243495133
+    },
+    {
+      "wavelet": "db8",
+      "level": 4,
+      "mode": "symmetric",
+      "total_entropy": 251.0379192428704
+    },
+    {
+      "wavelet": "coif3",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 278.99147592540885
+    },
+    {
+      "wavelet": "sym5",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 279.1478911026664
+    },
+    {
+      "wavelet": "sym7",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 279.1569138973659
+    },
+    {
+      "wavelet": "sym8",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 279.18896462145426
+    },
+    {
+      "wavelet": "coif3",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 279.32098287802296
+    },
+    {
+      "wavelet": "sym7",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 279.3247441303704
+    },
+    {
+      "wavelet": "sym6",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 279.3833503213433
+    },
+    {
+      "wavelet": "coif4",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 279.49225492044377
+    },
+    {
+      "wavelet": "sym5",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 279.7075641356373
+    },
+    {
+      "wavelet": "sym5",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 279.76927045371986
+    },
+    {
+      "wavelet": "coif3",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 279.83348704261215
+    },
+    {
+      "wavelet": "sym6",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 279.97982510308566
+    },
+    {
+      "wavelet": "sym8",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 280.06667539407806
+    },
+    {
+      "wavelet": "coif5",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 280.0865081589207
+    },
+    {
+      "wavelet": "sym6",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 280.134763708061
+    },
+    {
+      "wavelet": "sym7",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 280.16236927149356
+    },
+    {
+      "wavelet": "coif4",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 280.17777705858157
+    },
+    {
+      "wavelet": "coif5",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 280.25648260155924
+    },
+    {
+      "wavelet": "sym8",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 280.32570709893906
+    },
+    {
+      "wavelet": "db5",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 280.3697299805758
+    },
+    {
+      "wavelet": "db5",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 280.440687169146
+    },
+    {
+      "wavelet": "coif4",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 280.61747151617396
+    },
+    {
+      "wavelet": "db5",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 280.7353926466128
+    },
+    {
+      "wavelet": "db4",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 280.7910149497038
+    },
+    {
+      "wavelet": "db4",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 280.80154733250305
+    },
+    {
+      "wavelet": "db4",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 280.8786351150133
+    },
+    {
+      "wavelet": "db6",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 281.0969392737966
+    },
+    {
+      "wavelet": "db7",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 281.1967897662856
+    },
+    {
+      "wavelet": "db7",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 281.42221150224424
+    },
+    {
+      "wavelet": "db6",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 281.52360902149076
+    },
+    {
+      "wavelet": "coif5",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 281.5700570880699
+    },
+    {
+      "wavelet": "db6",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 281.61417089879194
+    },
+    {
+      "wavelet": "db7",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 281.79306439731806
+    },
+    {
+      "wavelet": "db8",
+      "level": 5,
+      "mode": "zero",
+      "total_entropy": 282.07803410276995
+    },
+    {
+      "wavelet": "db8",
+      "level": 5,
+      "mode": "periodization",
+      "total_entropy": 282.0827631958529
+    },
+    {
+      "wavelet": "db8",
+      "level": 5,
+      "mode": "symmetric",
+      "total_entropy": 282.54842845333803
+    },
+    {
+      "wavelet": "sym5",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 303.66288670975285
+    },
+    {
+      "wavelet": "sym5",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 304.2552575883286
+    },
+    {
+      "wavelet": "sym5",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 304.3780025007746
+    },
+    {
+      "wavelet": "sym8",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 304.52046928830237
+    },
+    {
+      "wavelet": "sym6",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 304.85138437926094
+    },
+    {
+      "wavelet": "sym7",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 304.95566603311397
+    },
+    {
+      "wavelet": "coif3",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 305.24327549736086
+    },
+    {
+      "wavelet": "sym7",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 305.30047783159586
+    },
+    {
+      "wavelet": "coif3",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 305.31501414506425
+    },
+    {
+      "wavelet": "coif4",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 305.68182561761125
+    },
+    {
+      "wavelet": "coif5",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 305.6912035614066
+    },
+    {
+      "wavelet": "coif3",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 305.8243263544974
+    },
+    {
+      "wavelet": "coif4",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 305.8252544433343
+    },
+    {
+      "wavelet": "db5",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 306.1457129004524
+    },
+    {
+      "wavelet": "sym6",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 306.2029095673461
+    },
+    {
+      "wavelet": "sym8",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 306.21236189806245
+    },
+    {
+      "wavelet": "db6",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 306.2343131089158
+    },
+    {
+      "wavelet": "db5",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 306.31303854535486
+    },
+    {
+      "wavelet": "sym7",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 306.3689988622238
+    },
+    {
+      "wavelet": "sym6",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 306.41397847939106
+    },
+    {
+      "wavelet": "coif5",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 306.4560567504045
+    },
+    {
+      "wavelet": "sym8",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 306.6101386814711
+    },
+    {
+      "wavelet": "db5",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 306.726436950831
+    },
+    {
+      "wavelet": "db6",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 306.7511682487797
+    },
+    {
+      "wavelet": "db6",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 306.8964963723087
+    },
+    {
+      "wavelet": "coif4",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 307.34358403342424
+    },
+    {
+      "wavelet": "db4",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 307.65610959699
+    },
+    {
+      "wavelet": "db4",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 307.6716831886506
+    },
+    {
+      "wavelet": "db4",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 307.7419649370875
+    },
+    {
+      "wavelet": "db7",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 307.7419956595676
+    },
+    {
+      "wavelet": "db7",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 307.80691392443407
+    },
+    {
+      "wavelet": "db7",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 308.07073794786066
+    },
+    {
+      "wavelet": "coif5",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 308.3405182921556
+    },
+    {
+      "wavelet": "db8",
+      "level": 6,
+      "mode": "periodization",
+      "total_entropy": 309.01040944813263
+    },
+    {
+      "wavelet": "db8",
+      "level": 6,
+      "mode": "zero",
+      "total_entropy": 309.0985096244778
+    },
+    {
+      "wavelet": "db8",
+      "level": 6,
+      "mode": "symmetric",
+      "total_entropy": 309.8488797451479
+    },
+    {
+      "wavelet": "sym5",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 324.2995724642367
+    },
+    {
+      "wavelet": "sym5",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 325.3655812628545
+    },
+    {
+      "wavelet": "sym5",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 325.61534470930593
+    },
+    {
+      "wavelet": "sym7",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 325.7664382579188
+    },
+    {
+      "wavelet": "sym7",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 326.2905230161921
+    },
+    {
+      "wavelet": "sym6",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 326.4537655095867
+    },
+    {
+      "wavelet": "sym8",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 326.4982342395787
+    },
+    {
+      "wavelet": "coif3",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 326.6744601828775
+    },
+    {
+      "wavelet": "sym7",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 326.8919129076033
+    },
+    {
+      "wavelet": "coif3",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 327.00468499808943
+    },
+    {
+      "wavelet": "db6",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 327.05565042487655
+    },
+    {
+      "wavelet": "coif4",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 327.05702450710584
+    },
+    {
+      "wavelet": "coif5",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 327.2732744006355
+    },
+    {
+      "wavelet": "db5",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 327.3345250719017
+    },
+    {
+      "wavelet": "coif4",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 327.3470111419992
+    },
+    {
+      "wavelet": "coif3",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 327.44732234458985
+    },
+    {
+      "wavelet": "db5",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 327.5388323057394
+    },
+    {
+      "wavelet": "sym6",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 327.65315766565755
+    },
+    {
+      "wavelet": "db5",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 327.66376064204275
+    },
+    {
+      "wavelet": "db6",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 327.7790781564999
+    },
+    {
+      "wavelet": "coif5",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 327.8064071955345
+    },
+    {
+      "wavelet": "sym8",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 327.82921930872124
+    },
+    {
+      "wavelet": "sym6",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 328.0309671674661
+    },
+    {
+      "wavelet": "db6",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 328.144087820461
+    },
+    {
+      "wavelet": "db4",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 328.1806244404113
+    },
+    {
+      "wavelet": "db4",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 328.39585210770554
+    },
+    {
+      "wavelet": "sym8",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 328.4766079508902
+    },
+    {
+      "wavelet": "db4",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 328.49887929917696
+    },
+    {
+      "wavelet": "coif4",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 329.20374463310327
+    },
+    {
+      "wavelet": "db7",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 329.60276189011364
+    },
+    {
+      "wavelet": "db7",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 329.72018540595263
+    },
+    {
+      "wavelet": "db7",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 330.34138371752306
+    },
+    {
+      "wavelet": "db8",
+      "level": 7,
+      "mode": "periodization",
+      "total_entropy": 330.5482370129208
+    },
+    {
+      "wavelet": "coif5",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 330.674045635659
+    },
+    {
+      "wavelet": "db8",
+      "level": 7,
+      "mode": "zero",
+      "total_entropy": 330.87665898352725
+    },
+    {
+      "wavelet": "db8",
+      "level": 7,
+      "mode": "symmetric",
+      "total_entropy": 332.0987833512202
+    }
+  ],
+  "created_at": "2026-06-06T15:03:39.863089"
+}

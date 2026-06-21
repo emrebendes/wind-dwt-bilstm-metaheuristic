@@ -1,0 +1,15 @@
+{
+    "dwt_wavelet": "db5",
+    "dwt_level": 4,
+    "dwt_mode": "zero",
+    "look_back": 95,
+    "hidden": 152,
+    "layers": 4,
+    "dropout": 0.0,
+    "lr": 0.00014254543929671052,
+    "batch": 128,
+    "_loss": 0.03865037184897454,
+    "_seed": 735393,
+    "_algorithm": "abc",
+    "_mode": "joint"
+}

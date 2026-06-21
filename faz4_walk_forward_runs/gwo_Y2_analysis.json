@@ -1,0 +1,517 @@
+{
+  "algorithm": "gwo",
+  "window": "Y2",
+  "window_hours": [
+    7344,
+    16104
+  ],
+  "n_runs_found": 30,
+  "best_loss": 0.04259526040037304,
+  "best_run_id": 2,
+  "best_params": {
+    "dwt_wavelet": "sym5",
+    "dwt_level": 5,
+    "dwt_mode": "symmetric",
+    "look_back": 55,
+    "hidden": 135,
+    "layers": 1,
+    "dropout": 0.08694151900140475,
+    "lr": 0.004719350548910791,
+    "batch": 32
+  },
+  "statistics": {
+    "n_runs": 30,
+    "min": 0.04259526040037304,
+    "max": 0.06311924734356807,
+    "mean": 0.050140798588988934,
+    "median": 0.05015524513214936,
+    "std": 0.003970406635062944
+  },
+  "all_losses": [
+    0.05548381154392973,
+    0.04259526040037304,
+    0.04992916351804141,
+    0.05021657320075816,
+    0.05015636688084535,
+    0.049788425499765906,
+    0.057451141338354564,
+    0.05019678648116917,
+    0.05065988843844331,
+    0.050154123383453375,
+    0.04547048339203827,
+    0.050105889424146434,
+    0.05035718538018892,
+    0.05051958050190945,
+    0.050267687665643934,
+    0.04333147018483505,
+    0.05239616913467,
+    0.04955581378793988,
+    0.05411295276172604,
+    0.050391590655942106,
+    0.05008324093692229,
+    0.049504843850755764,
+    0.04956332485707485,
+    0.044167915566369176,
+    0.04995493769813995,
+    0.05040716561330001,
+    0.06311924734356807,
+    0.050877678694854114,
+    0.04941818256846011,
+    0.04398705696604994
+  ],
+  "all_results": [
+    {
+      "run_id": 1,
+      "best_loss": 0.05548381154392973,
+      "best_params": {
+        "dwt_wavelet": "sym5",
+        "dwt_level": 5,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 75,
+        "layers": 2,
+        "dropout": 0.09449343561219654,
+        "lr": 0.0004664640266721557,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 2,
+      "best_loss": 0.04259526040037304,
+      "best_params": {
+        "dwt_wavelet": "sym5",
+        "dwt_level": 5,
+        "dwt_mode": "symmetric",
+        "look_back": 55,
+        "hidden": 135,
+        "layers": 1,
+        "dropout": 0.08694151900140475,
+        "lr": 0.004719350548910791,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 3,
+      "best_loss": 0.04992916351804141,
+      "best_params": {
+        "dwt_wavelet": "sym5",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 145,
+        "layers": 2,
+        "dropout": 0.08118343142721447,
+        "lr": 0.007208972799536318,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 4,
+      "best_loss": 0.05021657320075816,
+      "best_params": {
+        "dwt_wavelet": "sym5",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 129,
+        "layers": 1,
+        "dropout": 0.134519489748774,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 5,
+      "best_loss": 0.05015636688084535,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 56,
+        "hidden": 138,
+        "layers": 2,
+        "dropout": 0.07723242755662396,
+        "lr": 0.009834392479539992,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 6,
+      "best_loss": 0.049788425499765906,
+      "best_params": {
+        "dwt_wavelet": "sym5",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 238,
+        "layers": 2,
+        "dropout": 0.03585568887385438,
+        "lr": 0.0034832033826508843,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 7,
+      "best_loss": 0.057451141338354564,
+      "best_params": {
+        "dwt_wavelet": "coif5",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 59,
+        "hidden": 105,
+        "layers": 2,
+        "dropout": 0.37982560738165394,
+        "lr": 0.0014745036993076932,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 8,
+      "best_loss": 0.05019678648116917,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 56,
+        "hidden": 135,
+        "layers": 2,
+        "dropout": 0.3162981544763614,
+        "lr": 0.005795019485736045,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 9,
+      "best_loss": 0.05065988843844331,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 57,
+        "hidden": 101,
+        "layers": 2,
+        "dropout": 0.013140918633949332,
+        "lr": 0.010000000000000004,
+        "batch": 64
+      }
+    },
+    {
+      "run_id": 10,
+      "best_loss": 0.050154123383453375,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 54,
+        "hidden": 123,
+        "layers": 1,
+        "dropout": 0.3949178309243326,
+        "lr": 0.006951673186072298,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 11,
+      "best_loss": 0.04547048339203827,
+      "best_params": {
+        "dwt_wavelet": "db5",
+        "dwt_level": 5,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 138,
+        "layers": 3,
+        "dropout": 0.27305554732199755,
+        "lr": 0.005007822638029081,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 12,
+      "best_loss": 0.050105889424146434,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 56,
+        "hidden": 49,
+        "layers": 1,
+        "dropout": 0.06145146303694949,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 13,
+      "best_loss": 0.05035718538018892,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 54,
+        "hidden": 57,
+        "layers": 3,
+        "dropout": 0.1328608007798895,
+        "lr": 0.007638256836793948,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 14,
+      "best_loss": 0.05051958050190945,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 56,
+        "hidden": 166,
+        "layers": 1,
+        "dropout": 0.12760285975257302,
+        "lr": 0.006717845554510687,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 15,
+      "best_loss": 0.050267687665643934,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 117,
+        "layers": 2,
+        "dropout": 0.056343643756555095,
+        "lr": 0.004185113285632045,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 16,
+      "best_loss": 0.04333147018483505,
+      "best_params": {
+        "dwt_wavelet": "sym6",
+        "dwt_level": 5,
+        "dwt_mode": "periodization",
+        "look_back": 53,
+        "hidden": 107,
+        "layers": 2,
+        "dropout": 0.16284367712975034,
+        "lr": 0.00875854200778954,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 17,
+      "best_loss": 0.05239616913467,
+      "best_params": {
+        "dwt_wavelet": "coif5",
+        "dwt_level": 5,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 105,
+        "layers": 4,
+        "dropout": 0.4950955977558657,
+        "lr": 0.00011057025092277302,
+        "batch": 64
+      }
+    },
+    {
+      "run_id": 18,
+      "best_loss": 0.04955581378793988,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 69,
+        "layers": 3,
+        "dropout": 0.015958747643726234,
+        "lr": 0.009224895500765148,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 19,
+      "best_loss": 0.05411295276172604,
+      "best_params": {
+        "dwt_wavelet": "db5",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 203,
+        "layers": 1,
+        "dropout": 0.0577411861556745,
+        "lr": 0.004977785592449112,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 20,
+      "best_loss": 0.050391590655942106,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 53,
+        "hidden": 136,
+        "layers": 1,
+        "dropout": 0.10548371798379746,
+        "lr": 0.0044910821810145805,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 21,
+      "best_loss": 0.05008324093692229,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 53,
+        "hidden": 147,
+        "layers": 4,
+        "dropout": 0.09690794292942405,
+        "lr": 0.0037070660741949026,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 22,
+      "best_loss": 0.049504843850755764,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 56,
+        "hidden": 133,
+        "layers": 1,
+        "dropout": 0.2519645482272197,
+        "lr": 0.008584091373219032,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 23,
+      "best_loss": 0.04956332485707485,
+      "best_params": {
+        "dwt_wavelet": "sym6",
+        "dwt_level": 5,
+        "dwt_mode": "zero",
+        "look_back": 54,
+        "hidden": 164,
+        "layers": 2,
+        "dropout": 0.16556615127543975,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 24,
+      "best_loss": 0.044167915566369176,
+      "best_params": {
+        "dwt_wavelet": "sym5",
+        "dwt_level": 5,
+        "dwt_mode": "symmetric",
+        "look_back": 55,
+        "hidden": 162,
+        "layers": 4,
+        "dropout": 0.04728837898986853,
+        "lr": 0.0022961768646921478,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 25,
+      "best_loss": 0.04995493769813995,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 152,
+        "layers": 3,
+        "dropout": 0.1631584975951669,
+        "lr": 0.002967549886572285,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 26,
+      "best_loss": 0.05040716561330001,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 56,
+        "hidden": 194,
+        "layers": 3,
+        "dropout": 0.07641155492100495,
+        "lr": 0.0028798534315700383,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 27,
+      "best_loss": 0.06311924734356807,
+      "best_params": {
+        "dwt_wavelet": "db4",
+        "dwt_level": 3,
+        "dwt_mode": "periodization",
+        "look_back": 96,
+        "hidden": 123,
+        "layers": 1,
+        "dropout": 0.32961087419881885,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 28,
+      "best_loss": 0.050877678694854114,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 54,
+        "hidden": 155,
+        "layers": 1,
+        "dropout": 0.2115783517144789,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 29,
+      "best_loss": 0.04941818256846011,
+      "best_params": {
+        "dwt_wavelet": "db7",
+        "dwt_level": 5,
+        "dwt_mode": "periodization",
+        "look_back": 53,
+        "hidden": 175,
+        "layers": 4,
+        "dropout": 0.11498463189331463,
+        "lr": 0.003704925027949058,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 30,
+      "best_loss": 0.04398705696604994,
+      "best_params": {
+        "dwt_wavelet": "sym5",
+        "dwt_level": 5,
+        "dwt_mode": "periodization",
+        "look_back": 53,
+        "hidden": 131,
+        "layers": 2,
+        "dropout": 0.11669556631956764,
+        "lr": 0.009363764722686869,
+        "batch": 64
+      }
+    }
+  ],
+  "created_at": "2026-06-06T13:33:24.569211",
+  "final_training_loss": 0.08281163143272001,
+  "final_training_at": "2026-06-14T17:19:04.163048"
+}

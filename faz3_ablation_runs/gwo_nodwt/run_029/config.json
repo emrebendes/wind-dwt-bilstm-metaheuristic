@@ -1,0 +1,10 @@
+{
+  "algo": "gwo",
+  "ablation": "nodwt",
+  "ablation_desc": "DWT KAPALI \u2014 ham sinyal direkt BiLSTM (level=1)",
+  "seed": 681454,
+  "pop_size": 40,
+  "max_iter": 50,
+  "workers": 35,
+  "run_id": 29
+}

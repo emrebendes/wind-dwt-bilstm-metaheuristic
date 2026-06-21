@@ -1,0 +1,15 @@
+{
+    "dwt_wavelet": "sym6",
+    "dwt_level": 4,
+    "dwt_mode": "symmetric",
+    "look_back": 96,
+    "hidden": 184,
+    "layers": 3,
+    "dropout": 0.2512947354859315,
+    "lr": 0.00133834596873433,
+    "batch": 64,
+    "_loss": 0.0405114808273476,
+    "_seed": 772247,
+    "_algorithm": "raindrop",
+    "_mode": "joint"
+}

@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 5871264 ON hamsi124 CANCELLED AT 2026-06-09T02:13:32 DUE TO TIME LIMIT ***
+slurmstepd: error: *** REASON: Job is at or exceeds association (acc=gbilgictuzemen/user=(null)/part=(null)) group max TRES(cpu) minutes of 30000000 with 30000512 ***

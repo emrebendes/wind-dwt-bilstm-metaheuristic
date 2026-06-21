@@ -1,0 +1,38 @@
+{
+  "method": "1-step naive persistence forecast",
+  "train_ratio": 0.8,
+  "n_stations": 8,
+  "n_timesteps_per_station": 51144,
+  "raw_wind_speed_ms": {
+    "per_station_rmse": [
+      0.524735086875314,
+      0.8362022206681259,
+      0.719194337717865,
+      0.5583603496144467,
+      0.535269160893649,
+      0.6238892448101933,
+      0.535467533042381,
+      0.8752444629999021
+    ],
+    "mean_rmse_ms": 0.6510452995777346,
+    "std_rmse_ms": 0.13287080059467593,
+    "unit": "m/s"
+  },
+  "normalized_component_wise": {
+    "wavelet": "db4",
+    "level": 4,
+    "mode": "symmetric",
+    "n_components_total": 40,
+    "mean_rmse_normalized": 0.14181436388033591,
+    "std_rmse_normalized": 0.0505267480613913,
+    "unit": "[0,1] normalized"
+  },
+  "skill_score_vs_GWO": {
+    "gwo_best_validation_loss": 0.03458061630323126,
+    "gwo_final_training_loss": 0.07992764274815085,
+    "skill_score_search": 0.7561557563209136,
+    "skill_score_final": 0.43639247420949234,
+    "interpretation": "SS > 0 = model persistence'i geciyor; model gercek deger uretiyor"
+  },
+  "computed_at": "2026-06-19T08:49:10.070427"
+}

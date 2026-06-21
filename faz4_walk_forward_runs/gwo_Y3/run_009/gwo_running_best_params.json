@@ -1,0 +1,17 @@
+{
+    "dwt_wavelet": "db8",
+    "dwt_level": 5,
+    "dwt_mode": "periodization",
+    "look_back": 53,
+    "hidden": 143,
+    "layers": 2,
+    "dropout": 0.25422004188001474,
+    "lr": 0.010000000000000004,
+    "batch": 128,
+    "_loss": 0.052337151188912634,
+    "_seed": 42009,
+    "_algorithm": "gwo",
+    "_mode": "joint",
+    "_data_window_start": 16104,
+    "_data_window_end": 24864
+}

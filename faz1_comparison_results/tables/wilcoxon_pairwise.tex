@@ -1,0 +1,40 @@
+\begin{table}[htbp]
+\centering
+\caption{Wilcoxon Signed-Rank Pairwise Test (Holm-corrected p-values)}
+\label{tab:wilcoxon}
+\begin{tabular}{llccc}
+\hline
+\textbf{Algo 1} & \textbf{Algo 2} & \textbf{Mean Diff} & \textbf{p (raw)} & \textbf{p (Holm)} \\
+\hline
+GWO & FNO & -0.005004 & 0.0000 & 0.0000* \\
+GWO & HO & -0.005127 & 0.0000 & 0.0000* \\
+GWO & RAINDROP & -0.003981 & 0.0000 & 0.0000* \\
+PSO & FNO & -0.003880 & 0.0000 & 0.0001* \\
+GWO & ABC & -0.002779 & 0.0000 & 0.0006* \\
+PSO & HO & -0.004003 & 0.0001 & 0.0013* \\
+GWO & TOA & -0.002945 & 0.0001 & 0.0022* \\
+FNO & ABC & 0.002226 & 0.0002 & 0.0031* \\
+GA & HO & -0.003081 & 0.0002 & 0.0032* \\
+HO & ABC & 0.002348 & 0.0003 & 0.0056* \\
+GA & FNO & -0.002959 & 0.0003 & 0.0059* \\
+HO & TOA & 0.002182 & 0.0008 & 0.0136* \\
+PSO & RAINDROP & -0.002857 & 0.0009 & 0.0139* \\
+FNO & TOA & 0.002059 & 0.0030 & 0.0448* \\
+FNO & RAINDROP & 0.001023 & 0.0099 & 0.1291 \\
+GA & RAINDROP & -0.001936 & 0.0093 & 0.1302 \\
+PSO & ABC & -0.001654 & 0.0120 & 0.1446 \\
+GWO & GA & -0.002045 & 0.0248 & 0.2726 \\
+RAINDROP & ABC & 0.001202 & 0.0384 & 0.3458 \\
+PSO & TOA & -0.001821 & 0.0364 & 0.3643 \\
+RAINDROP & TOA & 0.001036 & 0.0841 & 0.5885 \\
+HO & RAINDROP & 0.001146 & 0.0841 & 0.6725 \\
+GA & PSO & 0.000921 & 0.1241 & 0.7448 \\
+HO & FNO & 0.000123 & 0.9032 & 0.9032 \\
+GA & ABC & -0.000733 & 0.3184 & 0.9552 \\
+GWO & PSO & -0.001124 & 0.2286 & 1.0000 \\
+GA & TOA & -0.000899 & 0.2621 & 1.0000 \\
+TOA & ABC & 0.000166 & 0.6120 & 1.0000 \\
+\hline
+\multicolumn{5}{l}{\small * significant at $\alpha=0.05$ (Holm-corrected)} \\
+\end{tabular}
+\end{table}

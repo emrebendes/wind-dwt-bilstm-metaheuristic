@@ -1,0 +1,17 @@
+{
+    "dwt_wavelet": "sym8",
+    "dwt_level": 7,
+    "dwt_mode": "zero",
+    "look_back": 55,
+    "hidden": 148,
+    "layers": 1,
+    "dropout": 0.28225917846558685,
+    "lr": 0.010000000000000004,
+    "batch": 32,
+    "_loss": 0.05328730020129524,
+    "_seed": 42005,
+    "_algorithm": "gwo",
+    "_mode": "joint",
+    "_data_window_start": 24864,
+    "_data_window_end": 33624
+}

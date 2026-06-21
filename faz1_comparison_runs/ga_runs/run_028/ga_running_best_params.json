@@ -1,0 +1,15 @@
+{
+    "dwt_wavelet": "coif3",
+    "dwt_level": 4,
+    "dwt_mode": "symmetric",
+    "look_back": 91,
+    "hidden": 46,
+    "layers": 2,
+    "dropout": 0.2806043727622014,
+    "lr": 0.00013383181818786235,
+    "batch": 64,
+    "_loss": 0.03715715194217049,
+    "_seed": 750801,
+    "_algorithm": "ga",
+    "_mode": "joint"
+}

@@ -1,0 +1,10 @@
+{
+  "algo": "gwo",
+  "window": "Y2",
+  "window_start": 7344,
+  "window_end": 16104,
+  "seed": 42017,
+  "pop_size": 40,
+  "max_iter": 50,
+  "run_id": 17
+}

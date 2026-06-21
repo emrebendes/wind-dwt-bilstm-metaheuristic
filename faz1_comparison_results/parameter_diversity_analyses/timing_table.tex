@@ -1,0 +1,21 @@
+\begin{table}[h]
+\centering
+\caption{Computational cost of 8 metaheuristic algorithms (30 runs each, 40 individuals $\times$ 50 iterations = 2000 surrogate evaluations per run).}
+\label{tab:timing}
+\begin{tabular}{lrrrr}
+\toprule
+Algorithm & Mean (min) & SD (min) & Mean/iter (s) & Cost ratio$^a$ \\
+\midrule
+FNO & 1184.7 & 353.3 & 1421.7 & 1.00$\times$ \\
+GWO & 1293.9 & 930.2 & 1552.6 & 1.09$\times$ \\
+GA & 1411.5 & 961.0 & 1693.8 & 1.19$\times$ \\
+PSO & 1440.3 & 1130.9 & 1728.4 & 1.22$\times$ \\
+Raindrop & 1455.8 & 217.5 & 1747.0 & 1.23$\times$ \\
+HO & 1553.5 & 190.3 & 1864.2 & 1.31$\times$ \\
+TOA & 1652.8 & 170.1 & 1983.3 & 1.40$\times$ \\
+ABC & 4350.8 & 369.1 & 5220.9 & 3.67$\times$ \\
+\bottomrule
+\end{tabular}
+
+$^a$ Cost ratio = mean wall-time relative to fastest algorithm (FNO).
+\end{table}

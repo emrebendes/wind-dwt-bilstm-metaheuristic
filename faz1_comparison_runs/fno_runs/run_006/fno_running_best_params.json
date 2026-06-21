@@ -1,0 +1,15 @@
+{
+    "dwt_wavelet": "coif4",
+    "dwt_level": 5,
+    "dwt_mode": "zero",
+    "look_back": 93,
+    "hidden": 256,
+    "layers": 3,
+    "dropout": 0.2460475443212517,
+    "lr": 0.0049530439757622825,
+    "batch": 64,
+    "_loss": 0.04223588330854938,
+    "_seed": 256788,
+    "_algorithm": "fno",
+    "_mode": "joint"
+}

@@ -1,0 +1,17 @@
+{
+    "dwt_wavelet": "db5",
+    "dwt_level": 6,
+    "dwt_mode": "periodization",
+    "look_back": 52,
+    "hidden": 173,
+    "layers": 1,
+    "dropout": 0.010724486081184037,
+    "lr": 0.005449555245863027,
+    "batch": 32,
+    "_loss": 0.05563340401377791,
+    "_seed": 42029,
+    "_algorithm": "gwo",
+    "_mode": "joint",
+    "_data_window_start": 33624,
+    "_data_window_end": 42384
+}

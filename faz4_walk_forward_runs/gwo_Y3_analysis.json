@@ -1,0 +1,517 @@
+{
+  "algorithm": "gwo",
+  "window": "Y3",
+  "window_hours": [
+    16104,
+    24864
+  ],
+  "n_runs_found": 30,
+  "best_loss": 0.04180481275526015,
+  "best_run_id": 30,
+  "best_params": {
+    "dwt_wavelet": "db4",
+    "dwt_level": 5,
+    "dwt_mode": "symmetric",
+    "look_back": 54,
+    "hidden": 86,
+    "layers": 4,
+    "dropout": 0.07506429462890812,
+    "lr": 0.00783003711180744,
+    "batch": 32
+  },
+  "statistics": {
+    "n_runs": 30,
+    "min": 0.04180481275526015,
+    "max": 0.06008337704298482,
+    "mean": 0.04843220816083293,
+    "median": 0.04928705365229989,
+    "std": 0.004613811582838013
+  },
+  "all_losses": [
+    0.047533841913330245,
+    0.05074534106474776,
+    0.05516346009612564,
+    0.0432158601404256,
+    0.05025425523719417,
+    0.05482314602640009,
+    0.06008337704298482,
+    0.050041391788874366,
+    0.052337151188912634,
+    0.05457745632775298,
+    0.05406469263460948,
+    0.04939860142769266,
+    0.04704067620213395,
+    0.04585305556481329,
+    0.04275315942871993,
+    0.042658964708802836,
+    0.05035651817275076,
+    0.050365491501036454,
+    0.04496920502851725,
+    0.04195079961288477,
+    0.049175505876907125,
+    0.044813454767253826,
+    0.049845918926945516,
+    0.043582127033319304,
+    0.050594482170854625,
+    0.04376013616894422,
+    0.051850414705735315,
+    0.042851302508700236,
+    0.046501644802357876,
+    0.04180481275526015
+  ],
+  "all_results": [
+    {
+      "run_id": 1,
+      "best_loss": 0.047533841913330245,
+      "best_params": {
+        "dwt_wavelet": "sym8",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 24,
+        "hidden": 138,
+        "layers": 3,
+        "dropout": 0.06259679360447802,
+        "lr": 0.00605465081428288,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 2,
+      "best_loss": 0.05074534106474776,
+      "best_params": {
+        "dwt_wavelet": "db5",
+        "dwt_level": 4,
+        "dwt_mode": "periodization",
+        "look_back": 96,
+        "hidden": 107,
+        "layers": 2,
+        "dropout": 0.19357170557284675,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 3,
+      "best_loss": 0.05516346009612564,
+      "best_params": {
+        "dwt_wavelet": "coif5",
+        "dwt_level": 5,
+        "dwt_mode": "zero",
+        "look_back": 57,
+        "hidden": 76,
+        "layers": 1,
+        "dropout": 0.46915213777433545,
+        "lr": 0.0016531095979935787,
+        "batch": 128
+      }
+    },
+    {
+      "run_id": 4,
+      "best_loss": 0.0432158601404256,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 6,
+        "dwt_mode": "symmetric",
+        "look_back": 26,
+        "hidden": 98,
+        "layers": 2,
+        "dropout": 0.23396192926356205,
+        "lr": 0.005554115201540436,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 5,
+      "best_loss": 0.05025425523719417,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 6,
+        "dwt_mode": "symmetric",
+        "look_back": 30,
+        "hidden": 233,
+        "layers": 3,
+        "dropout": 0.13487515010258552,
+        "lr": 0.0009608335334709936,
+        "batch": 64
+      }
+    },
+    {
+      "run_id": 6,
+      "best_loss": 0.05482314602640009,
+      "best_params": {
+        "dwt_wavelet": "db5",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 27,
+        "hidden": 120,
+        "layers": 4,
+        "dropout": 0.18834090015822771,
+        "lr": 0.0012735025228321293,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 7,
+      "best_loss": 0.06008337704298482,
+      "best_params": {
+        "dwt_wavelet": "coif5",
+        "dwt_level": 4,
+        "dwt_mode": "symmetric",
+        "look_back": 96,
+        "hidden": 85,
+        "layers": 2,
+        "dropout": 0.09866762009873786,
+        "lr": 0.00011967930729464098,
+        "batch": 64
+      }
+    },
+    {
+      "run_id": 8,
+      "best_loss": 0.050041391788874366,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 53,
+        "hidden": 136,
+        "layers": 3,
+        "dropout": 0.23873798424972378,
+        "lr": 0.006439227950344545,
+        "batch": 64
+      }
+    },
+    {
+      "run_id": 9,
+      "best_loss": 0.052337151188912634,
+      "best_params": {
+        "dwt_wavelet": "db8",
+        "dwt_level": 5,
+        "dwt_mode": "periodization",
+        "look_back": 53,
+        "hidden": 143,
+        "layers": 2,
+        "dropout": 0.25422004188001474,
+        "lr": 0.010000000000000004,
+        "batch": 128
+      }
+    },
+    {
+      "run_id": 10,
+      "best_loss": 0.05457745632775298,
+      "best_params": {
+        "dwt_wavelet": "coif5",
+        "dwt_level": 5,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 111,
+        "layers": 1,
+        "dropout": 0.17723242299822695,
+        "lr": 0.00023058779139732528,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 11,
+      "best_loss": 0.05406469263460948,
+      "best_params": {
+        "dwt_wavelet": "coif5",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 51,
+        "hidden": 187,
+        "layers": 3,
+        "dropout": 0.26225661472101297,
+        "lr": 0.008113773189458813,
+        "batch": 128
+      }
+    },
+    {
+      "run_id": 12,
+      "best_loss": 0.04939860142769266,
+      "best_params": {
+        "dwt_wavelet": "db4",
+        "dwt_level": 7,
+        "dwt_mode": "symmetric",
+        "look_back": 54,
+        "hidden": 56,
+        "layers": 2,
+        "dropout": 0.06668323168617026,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 13,
+      "best_loss": 0.04704067620213395,
+      "best_params": {
+        "dwt_wavelet": "sym6",
+        "dwt_level": 4,
+        "dwt_mode": "periodization",
+        "look_back": 96,
+        "hidden": 116,
+        "layers": 1,
+        "dropout": 0.2964834882336527,
+        "lr": 0.00766479352836432,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 14,
+      "best_loss": 0.04585305556481329,
+      "best_params": {
+        "dwt_wavelet": "db6",
+        "dwt_level": 5,
+        "dwt_mode": "symmetric",
+        "look_back": 55,
+        "hidden": 188,
+        "layers": 2,
+        "dropout": 0.005529218824232508,
+        "lr": 0.002703418899274351,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 15,
+      "best_loss": 0.04275315942871993,
+      "best_params": {
+        "dwt_wavelet": "db4",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 27,
+        "hidden": 92,
+        "layers": 2,
+        "dropout": 0.29488477552965864,
+        "lr": 0.007437777026615119,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 16,
+      "best_loss": 0.042658964708802836,
+      "best_params": {
+        "dwt_wavelet": "db4",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 27,
+        "hidden": 49,
+        "layers": 1,
+        "dropout": 0.36355665337845067,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 17,
+      "best_loss": 0.05035651817275076,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 7,
+        "dwt_mode": "symmetric",
+        "look_back": 56,
+        "hidden": 110,
+        "layers": 2,
+        "dropout": 0.15661432557128532,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 18,
+      "best_loss": 0.050365491501036454,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 7,
+        "dwt_mode": "zero",
+        "look_back": 55,
+        "hidden": 34,
+        "layers": 3,
+        "dropout": 0.013212812592248843,
+        "lr": 0.007446019053007582,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 19,
+      "best_loss": 0.04496920502851725,
+      "best_params": {
+        "dwt_wavelet": "sym8",
+        "dwt_level": 5,
+        "dwt_mode": "symmetric",
+        "look_back": 55,
+        "hidden": 175,
+        "layers": 2,
+        "dropout": 0.08007931541152719,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 20,
+      "best_loss": 0.04195079961288477,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 6,
+        "dwt_mode": "symmetric",
+        "look_back": 27,
+        "hidden": 105,
+        "layers": 3,
+        "dropout": 0.24842020960347488,
+        "lr": 0.006006340570774418,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 21,
+      "best_loss": 0.049175505876907125,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 6,
+        "dwt_mode": "symmetric",
+        "look_back": 56,
+        "hidden": 103,
+        "layers": 4,
+        "dropout": 0.14284496060122118,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 22,
+      "best_loss": 0.044813454767253826,
+      "best_params": {
+        "dwt_wavelet": "sym6",
+        "dwt_level": 5,
+        "dwt_mode": "symmetric",
+        "look_back": 52,
+        "hidden": 133,
+        "layers": 3,
+        "dropout": 0.046513010099920336,
+        "lr": 0.0035615779957336078,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 23,
+      "best_loss": 0.049845918926945516,
+      "best_params": {
+        "dwt_wavelet": "db6",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 28,
+        "hidden": 256,
+        "layers": 1,
+        "dropout": 0.23352265339566558,
+        "lr": 0.0050994533628703955,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 24,
+      "best_loss": 0.043582127033319304,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 6,
+        "dwt_mode": "symmetric",
+        "look_back": 24,
+        "hidden": 90,
+        "layers": 4,
+        "dropout": 0.09630881672958314,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 25,
+      "best_loss": 0.050594482170854625,
+      "best_params": {
+        "dwt_wavelet": "coif4",
+        "dwt_level": 6,
+        "dwt_mode": "zero",
+        "look_back": 54,
+        "hidden": 66,
+        "layers": 3,
+        "dropout": 0.0009378204376805629,
+        "lr": 0.007028904454622905,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 26,
+      "best_loss": 0.04376013616894422,
+      "best_params": {
+        "dwt_wavelet": "sym7",
+        "dwt_level": 6,
+        "dwt_mode": "symmetric",
+        "look_back": 24,
+        "hidden": 135,
+        "layers": 1,
+        "dropout": 0.37211375885803416,
+        "lr": 0.0081444886278344,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 27,
+      "best_loss": 0.051850414705735315,
+      "best_params": {
+        "dwt_wavelet": "db6",
+        "dwt_level": 4,
+        "dwt_mode": "zero",
+        "look_back": 96,
+        "hidden": 127,
+        "layers": 2,
+        "dropout": 0.26536710837270333,
+        "lr": 0.009061975513593182,
+        "batch": 64
+      }
+    },
+    {
+      "run_id": 28,
+      "best_loss": 0.042851302508700236,
+      "best_params": {
+        "dwt_wavelet": "db4",
+        "dwt_level": 6,
+        "dwt_mode": "symmetric",
+        "look_back": 27,
+        "hidden": 89,
+        "layers": 1,
+        "dropout": 0.3030998418036995,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 29,
+      "best_loss": 0.046501644802357876,
+      "best_params": {
+        "dwt_wavelet": "coif5",
+        "dwt_level": 6,
+        "dwt_mode": "periodization",
+        "look_back": 26,
+        "hidden": 129,
+        "layers": 3,
+        "dropout": 0.10314450813184255,
+        "lr": 0.010000000000000004,
+        "batch": 32
+      }
+    },
+    {
+      "run_id": 30,
+      "best_loss": 0.04180481275526015,
+      "best_params": {
+        "dwt_wavelet": "db4",
+        "dwt_level": 5,
+        "dwt_mode": "symmetric",
+        "look_back": 54,
+        "hidden": 86,
+        "layers": 4,
+        "dropout": 0.07506429462890812,
+        "lr": 0.00783003711180744,
+        "batch": 32
+      }
+    }
+  ],
+  "created_at": "2026-06-05T15:56:05.419357",
+  "final_training_loss": 0.08520069302823742,
+  "final_training_at": "2026-06-14T23:25:14.590036"
+}

@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+\centering
+\caption{TOA Optimization Results Across 30 Independent Runs}
+\label{tab:toa_results}
+\begin{tabular}{lc}
+\hline
+\textbf{Metric} & \textbf{Value} \\
+\hline
+Number of Runs & 30 \\
+Minimum Loss   & 0.036624 \\
+Maximum Loss   & 0.044020 \\
+Mean Loss      & 0.040061 \\
+Median Loss    & 0.039346 \\
+Std. Deviation & 0.002206 \\
+CV (\%)       & 5.51 \\
+\hline
+\multicolumn{2}{l}{\textbf{Best Run Hyperparameters:}} \\
+dwt\_wavelet   & coif4 \\
+dwt\_level     & 4 \\
+dwt\_mode      & symmetric \\
+look\_back     & 93 \\
+hidden         & 163 \\
+layers         & 3 \\
+dropout        & 0.3262 \\
+lr             & 0.00016 \\
+batch          & 64 \\
+\hline
+\end{tabular}
+\end{table}

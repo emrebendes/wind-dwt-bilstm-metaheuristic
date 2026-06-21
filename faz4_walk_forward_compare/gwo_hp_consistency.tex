@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Walk-forward HP consistency across yearly windows for GWO}
+\label{tab:wf_hp_gwo}
+\begin{tabular}{lcccccc}
+\hline
+Window & Wavelet & Level & Look-back & Hidden & Layers & Dropout \\
+\hline
+Y2   & sym5   &  5 &  55 &  135 &  1 & 0.087 \\
+Y3   & db4    &  5 &  54 &   86 &  4 & 0.075 \\
+Y4   & sym5   &  5 &  53 &  242 &  2 & 0.344 \\
+Y5   & db4    &  5 &  54 &   86 &  1 & 0.282 \\
+Y6   & db4    &  4 &  91 &   85 &  1 & 0.432 \\
+\hline
+Most freq. wavelet & \multicolumn{6}{l}{db4 (60\% of windows)} \\
+Level CV\% & \multicolumn{6}{l}{8.3\%} \\
+Look-back CV\% & \multicolumn{6}{l}{24.1\%} \\
+\hline
+\end{tabular}
+\end{table}
