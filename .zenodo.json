@@ -1,0 +1,35 @@
+{
+  "title": "Joint Hyperparameter Optimization of a DWT-BiLSTM Architecture for Wind Speed Forecasting: A Systematic Comparison of Metaheuristic Algorithms with Component Ablation Analysis",
+  "description": "Companion code, configurations, per-iteration trial-history databases, trained model checkpoints, and analysis outputs for a four-phase benchmark study of eight metaheuristic algorithms (ABC, GA, PSO, GWO, HO, FNO, Raindrop, TOA) on the joint 9-dimensional hyperparameter optimization of a DWT-BiLSTM hybrid wind-speed-forecasting architecture. Submitted to Knowledge-Based Systems (Elsevier). Raw wind-speed data are not included due to the data-sharing terms of the Turkish State Meteorological Service (MGM); aggregated result JSONs allow verification of every published number, figure, and table without access to the raw data.",
+  "creators": [
+    {
+      "name": "Bendeş, Emre",
+      "affiliation": "Nevşehir Hacı Bektaş Veli University, Department of Computer Engineering",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "keywords": [
+    "wind speed forecasting",
+    "metaheuristic optimization",
+    "hyperparameter optimization",
+    "discrete wavelet transform",
+    "bidirectional long short-term memory",
+    "ablation analysis",
+    "Grey Wolf Optimizer",
+    "joint optimization",
+    "knowledge-based systems"
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/emrebendes/wind-dwt-bilstm-metaheuristic",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "communities": [],
+  "notes": "If you use this software or any of the result artefacts in your research, please cite the associated Knowledge-Based Systems manuscript (DOI to be added upon acceptance). Raw wind speed data may be requested directly from the Turkish State Meteorological Service (MGM) at https://mgm.gov.tr."
+}

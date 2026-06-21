@@ -1,0 +1,42 @@
+# MGM data (NOT redistributable)
+data_files/
+*.npy
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs_v4/
+*.log
+slurm-*.out
+
+# Temp / cache
+*.tmp
+*.swp
+.cache/
+
+# Model checkpoint backups (optional - decide later if you want these on GitHub)
+# Uncomment to exclude trained models from GitHub
+# */models/
+# *_final_models/
+# *.pth
+
+# Large optimizer databases (optional - decide based on repo size)
+# Uncomment to exclude raw trial histories
+# *_runs/run_*/
+# *.db
