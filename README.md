@@ -334,8 +334,8 @@ databases and trained model checkpoints, ~1 GB total) will be mirrored
 at Zenodo: 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20783711.svg)](https://doi.org/10.5281/zenodo.20783711)
 
-DOI (concept, all versions): [10.5281/zenodo.20783711](https://doi.org/10.5281/zenodo.20783711)  
-DOI (this version, v1.0.0): [10.5281/zenodo.20783712](https://doi.org/10.5281/zenodo.20783712)
+
+
 
 ---
 
