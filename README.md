@@ -1,5 +1,4 @@
-# Bio-Inspired Metaheuristic Optimization of a DWT–BiLSTM Architecture for
-# Wind Speed Forecasting: A Statistical Bench-mark with Component Ablation
+# Bio-Inspired Metaheuristic Optimization of a DWT–BiLSTM Architecture for Wind Speed Forecasting: A Statistical Bench-mark with Component Ablation
 
 Companion code and results for the manuscript:
 
