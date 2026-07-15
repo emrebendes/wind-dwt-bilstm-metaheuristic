@@ -1,4 +1,5 @@
-# Joint Hyperparameter Optimization of DWT–BiLSTM for Wind Speed Forecasting
+# Bio-Inspired Metaheuristic Optimization of a DWT–BiLSTM Architecture for
+# Wind Speed Forecasting: A Statistical Bench-mark with Component Ablation
 
 Companion code and results for the manuscript:
 
