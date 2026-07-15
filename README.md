@@ -2,9 +2,9 @@
 
 Companion code and results for the manuscript:
 
->Bendeş, E. (2026). Joint Hyperparameter Optimization of a DWT–BiLSTM
->Architecture for Wind Speed Forecasting: A Statistical Benchmark of
->Metaheuristic Algorithms with Component Ablation. Manuscript under review.
+>Bendeş, E. (2026). Bio-Inspired Metaheuristic Optimization of a DWT–BiLSTM
+>Architecture for Wind Speed Forecasting: A Statistical Bench-mark with
+>Component Ablation. Manuscript under review.
 
 This repository contains the complete experimental code, configuration
 files, per-iteration trial histories, and analysis outputs for a
@@ -309,10 +309,9 @@ please cite:
 ```bibtex
 @article{bendes2026joint,
   author    = {Bende{\c{s}}, Emre},
-  title     = {Joint Hyperparameter Optimization of a {DWT}--{BiLSTM}
-               Architecture for Wind Speed Forecasting: A  Statistical
-               Benchmark of Metaheuristic Algorithms with Component
-               Ablation},
+  title     = {Bio-Inspired Metaheuristic Optimization of a {DWT}--{BiLSTM}
+              Architecture for Wind Speed Forecasting: A Statistical Bench-mark
+              with Component Ablation},
   year      = {2026},
   note      = {Manuscript under review}
 }
